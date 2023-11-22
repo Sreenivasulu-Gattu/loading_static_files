@@ -1,0 +1,17 @@
+*
+{
+    margin: 0px;
+}
+h1
+{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: slateblue;
+}
+img
+{
+    background: linear-gradient(lightgreen,orange,lightblue);
+    margin-top: 6%;
+
+}

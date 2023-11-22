@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'css/c1.css' %}">
+    <style>
+        h2
+        {
+            color: blueviolet;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+            font-size: 6vw;
+            background: linear-gradient(lightblue,lightgreen);
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <h1>Hi hello </h1>
+        <h2>This is second line of HTML page</h2>
+        <img src="{% static 'images/spider.jpg' %} " alt="No image there" height="500px" width="600px">
+    </center>
+</body>
+</html>
